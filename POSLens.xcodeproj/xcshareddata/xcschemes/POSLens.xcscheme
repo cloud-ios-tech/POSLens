@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E980C4862039ABD3002E1558"
-               BuildableName = "libPOSLens.a"
+               BlueprintIdentifier = "28A771462AD06B6E0066428C"
+               BuildableName = "POSLens.framework"
                BlueprintName = "POSLens"
                ReferencedContainer = "container:POSLens.xcodeproj">
             </BuildableReference>
@@ -27,6 +27,15 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "28A771462AD06B6E0066428C"
+            BuildableName = "POSLens.framework"
+            BlueprintName = "POSLens"
+            ReferencedContainer = "container:POSLens.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -39,17 +48,6 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E980C4862039ABD3002E1558"
-            BuildableName = "libPOSLens.a"
-            BlueprintName = "POSLens"
-            ReferencedContainer = "container:POSLens.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -64,14 +62,12 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E980C4862039ABD3002E1558"
-            BuildableName = "libPOSLens.a"
+            BlueprintIdentifier = "28A771462AD06B6E0066428C"
+            BuildableName = "POSLens.framework"
             BlueprintName = "POSLens"
             ReferencedContainer = "container:POSLens.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -82,8 +78,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E980C4862039ABD3002E1558"
-            BuildableName = "libPOSLens.a"
+            BlueprintIdentifier = "28A771462AD06B6E0066428C"
+            BuildableName = "POSLens.framework"
             BlueprintName = "POSLens"
             ReferencedContainer = "container:POSLens.xcodeproj">
          </BuildableReference>
