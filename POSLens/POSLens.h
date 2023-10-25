@@ -6,7 +6,6 @@
 //  Copyright © 2023 Pavel Osipov. All rights reserved.
 //
 
-#import <POSLens/Foundation/Foundation.h>
 #import <POSLens/NSError+POSLens.h>
 #import <POSLens/POSLensCore.h>
 #import <POSLens/POSLensValue.h>
