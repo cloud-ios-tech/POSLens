@@ -8,7 +8,7 @@
 
 #import <POSLens/Foundation/Foundation.h>
 #import <POSLens/NSError+POSLens.h>
-#import <POSLens/POSLens.h>
+#import <POSLens/POSLensCore.h>
 #import <POSLens/POSLensValue.h>
 #import <POSLens/POSEphemeralValueStore.h>
 #import <POSLens/POSPersistentValueStore.h>

@@ -1,5 +1,5 @@
 //
-//  POSLens.h
+//  POSLensCore.h
 //  POSLens
 //
 //  Created by Pavel Osipov on 06/02/2018.

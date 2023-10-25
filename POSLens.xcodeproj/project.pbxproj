@@ -7,9 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		289C321B2AE95CA50017390D /* NSError+POSLens.h in Headers */ = {isa = PBXBuildFile; fileRef = E980C4A4203A0971002E1558 /* NSError+POSLens.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		289C321C2AE95CA70017390D /* POSLensCore.h in Headers */ = {isa = PBXBuildFile; fileRef = E980C4A9203A0971002E1558 /* POSLensCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		289C321D2AE95CA90017390D /* POSLensValue.h in Headers */ = {isa = PBXBuildFile; fileRef = E980C4AB203A0971002E1558 /* POSLensValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		289C321E2AE95CAB0017390D /* POSEphemeralValueStore.h in Headers */ = {isa = PBXBuildFile; fileRef = E980C4AE203A0971002E1558 /* POSEphemeralValueStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		289C321F2AE95CAD0017390D /* POSFileValueStore.h in Headers */ = {isa = PBXBuildFile; fileRef = E980C4B0203A0971002E1558 /* POSFileValueStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		289C32202AE95CB00017390D /* POSKeychainValueStore.h in Headers */ = {isa = PBXBuildFile; fileRef = E980C4B2203A0971002E1558 /* POSKeychainValueStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		289C32212AE95CB20017390D /* POSPersistentValueStore.h in Headers */ = {isa = PBXBuildFile; fileRef = E980C4B4203A0971002E1558 /* POSPersistentValueStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		289C32222AE95CB40017390D /* POSUserDefaultsValueStore.h in Headers */ = {isa = PBXBuildFile; fileRef = E980C4B6203A0971002E1558 /* POSUserDefaultsValueStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		289C32232AE95CB70017390D /* POSValueStore.h in Headers */ = {isa = PBXBuildFile; fileRef = E980C4B8203A0971002E1558 /* POSValueStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		289C32242AE95CB80017390D /* POSEquality.h in Headers */ = {isa = PBXBuildFile; fileRef = 687A440D2105E792005360D5 /* POSEquality.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28A7714A2AD06B6E0066428C /* POSLens.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A771492AD06B6E0066428C /* POSLens.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28A7714F2AD06B870066428C /* NSError+POSLens.m in Sources */ = {isa = PBXBuildFile; fileRef = E980C4A5203A0971002E1558 /* NSError+POSLens.m */; };
-		28A771512AD06B880066428C /* POSLens.m in Sources */ = {isa = PBXBuildFile; fileRef = E980C4AA203A0971002E1558 /* POSLens.m */; };
+		28A771512AD06B880066428C /* POSLensCore.m in Sources */ = {isa = PBXBuildFile; fileRef = E980C4AA203A0971002E1558 /* POSLensCore.m */; };
 		28A771532AD06B880066428C /* POSLensValue.m in Sources */ = {isa = PBXBuildFile; fileRef = E980C4AC203A0971002E1558 /* POSLensValue.m */; };
 		28A771552AD06B880066428C /* POSEphemeralValueStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E980C4AF203A0971002E1558 /* POSEphemeralValueStore.m */; };
 		28A771572AD06B880066428C /* POSFileValueStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E980C4B1203A0971002E1558 /* POSFileValueStore.m */; };
@@ -49,8 +59,8 @@
 		E980C497203A094C002E1558 /* POSLensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POSLensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E980C4A4203A0971002E1558 /* NSError+POSLens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+POSLens.h"; sourceTree = "<group>"; };
 		E980C4A5203A0971002E1558 /* NSError+POSLens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+POSLens.m"; sourceTree = "<group>"; };
-		E980C4A9203A0971002E1558 /* POSLens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSLens.h; sourceTree = "<group>"; };
-		E980C4AA203A0971002E1558 /* POSLens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSLens.m; sourceTree = "<group>"; };
+		E980C4A9203A0971002E1558 /* POSLensCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSLensCore.h; sourceTree = "<group>"; };
+		E980C4AA203A0971002E1558 /* POSLensCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSLensCore.m; sourceTree = "<group>"; };
 		E980C4AB203A0971002E1558 /* POSLensValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSLensValue.h; sourceTree = "<group>"; };
 		E980C4AC203A0971002E1558 /* POSLensValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSLensValue.m; sourceTree = "<group>"; };
 		E980C4AE203A0971002E1558 /* POSEphemeralValueStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSEphemeralValueStore.h; sourceTree = "<group>"; };
@@ -159,8 +169,8 @@
 		E980C4A8203A0971002E1558 /* Lens */ = {
 			isa = PBXGroup;
 			children = (
-				E980C4A9203A0971002E1558 /* POSLens.h */,
-				E980C4AA203A0971002E1558 /* POSLens.m */,
+				E980C4A9203A0971002E1558 /* POSLensCore.h */,
+				E980C4AA203A0971002E1558 /* POSLensCore.m */,
 				E980C4AB203A0971002E1558 /* POSLensValue.h */,
 				E980C4AC203A0971002E1558 /* POSLensValue.m */,
 			);
@@ -213,6 +223,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				28A7714A2AD06B6E0066428C /* POSLens.h in Headers */,
+				289C321E2AE95CAB0017390D /* POSEphemeralValueStore.h in Headers */,
+				289C321F2AE95CAD0017390D /* POSFileValueStore.h in Headers */,
+				289C32202AE95CB00017390D /* POSKeychainValueStore.h in Headers */,
+				289C32212AE95CB20017390D /* POSPersistentValueStore.h in Headers */,
+				289C32222AE95CB40017390D /* POSUserDefaultsValueStore.h in Headers */,
+				289C321B2AE95CA50017390D /* NSError+POSLens.h in Headers */,
+				289C32232AE95CB70017390D /* POSValueStore.h in Headers */,
+				289C321D2AE95CA90017390D /* POSLensValue.h in Headers */,
+				289C32242AE95CB80017390D /* POSEquality.h in Headers */,
+				289C321C2AE95CA70017390D /* POSLensCore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28A7714F2AD06B870066428C /* NSError+POSLens.m in Sources */,
-				28A771512AD06B880066428C /* POSLens.m in Sources */,
+				28A771512AD06B880066428C /* POSLensCore.m in Sources */,
 				28A771532AD06B880066428C /* POSLensValue.m in Sources */,
 				28A771552AD06B880066428C /* POSEphemeralValueStore.m in Sources */,
 				28A771572AD06B880066428C /* POSFileValueStore.m in Sources */,

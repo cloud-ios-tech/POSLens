@@ -6,7 +6,7 @@
 //  Copyright © 2018 Pavel Osipov. All rights reserved.
 //
 
-#import "POSLens.h"
+#import "POSLensCore.h"
 
 #import "POSEphemeralValueStore.h"
 #import "POSFileValueStore.h"
