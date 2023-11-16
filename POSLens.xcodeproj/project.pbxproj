@@ -27,28 +27,11 @@
 		28A7715B2AD06B880066428C /* POSPersistentValueStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E980C4B5203A0971002E1558 /* POSPersistentValueStore.m */; };
 		28A7715D2AD06B880066428C /* POSUserDefaultsValueStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E980C4B7203A0971002E1558 /* POSUserDefaultsValueStore.m */; };
 		28A771692AD06BD70066428C /* POSErrorHandling.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A771672AD06BD70066428C /* POSErrorHandling.xcframework */; };
-		28A7716A2AD06BD70066428C /* POSErrorHandling.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28A771672AD06BD70066428C /* POSErrorHandling.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		28A7716B2AD06BD80066428C /* ReactiveObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A771682AD06BD70066428C /* ReactiveObjC.xcframework */; };
-		28A7716C2AD06BD80066428C /* ReactiveObjC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28A771682AD06BD70066428C /* ReactiveObjC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E980C4CD203A097E002E1558 /* POSLensTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E980C4BB203A0971002E1558 /* POSLensTests.m */; };
 		E980C4CE203A0984002E1558 /* POSPersonSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = E980C4BE203A0971002E1558 /* POSPersonSettings.m */; };
 		E980C4CF203A098A002E1558 /* POSPersonSettingsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E980C4C0203A0971002E1558 /* POSPersonSettingsStore.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		28A7716D2AD06BD80066428C /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				28A7716C2AD06BD80066428C /* ReactiveObjC.xcframework in Embed Frameworks */,
-				28A7716A2AD06BD70066428C /* POSErrorHandling.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		28A771472AD06B6E0066428C /* POSLens.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = POSLens.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -247,7 +230,6 @@
 				28A771432AD06B6E0066428C /* Sources */,
 				28A771442AD06B6E0066428C /* Frameworks */,
 				28A771452AD06B6E0066428C /* Resources */,
-				28A7716D2AD06BD80066428C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
